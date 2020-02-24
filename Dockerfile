@@ -5,6 +5,11 @@ RUN apt-get update --fix-missing && apt-get install -y --fix-missing \
 WORKDIR /app
 COPY requirements.txt /app
 RUN pip install --no-cache-dir -r requirements.txt
+#GITSECURE REMEDIATION 
+RUN  pip install validators >= 0.12.6  feedgen >= 0.9.0 \ 
+     colander >= 1.7.0  django >=  \ 
+     
+
 
 WORKDIR /go/src/github.com/simple-app/
 COPY . .
