@@ -8,6 +8,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 #GITSECURE REMEDIATION 
 RUN  pip install validators >= 0.12.6  feedgen >= 0.9.0 \ 
      colander >=   
+#GITSECURE REMEDIATION 
+RUN  pip install validators >= 0.12.6  feedgen >= 0.9.0 \ 
+     colander >=   
+
 
 
 WORKDIR /go/src/github.com/simple-app/
