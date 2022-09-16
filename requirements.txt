@@ -1,4 +1,4 @@
-Mako==1.0.7
+Mako==1.2.2
 MarkupSafe==1.0
 aniso8601==7.0.0
 attrs==19.2.0
