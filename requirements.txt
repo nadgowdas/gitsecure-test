@@ -6,7 +6,7 @@ dominate==2.3.4
 importlib-metadata==0.18
 jsonschema==3.0.1
 six==1.12.0
-zipp==0.5.2
+zipp==3.19.1
 feedgen==0.8.0
 validators==0.12.2
 colander==1.2
